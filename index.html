@@ -1,0 +1,308 @@
+<!doctype html>
+<html lang="en">
+  <head>
+  	<!-- meta data -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="pushpo">
+    <meta name="description" content="blog site">
+    <meta name="keywords" content="Web development,web design">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="English">
+    <meta name="revisit-after" content="3 days">
+    <meta name="author" content="pushpo">
+    <link rel="icon" href="images/#">
+    <title>jquery plugins</title>
+
+    <!-- font link -->
+    <link rel="stylesheet" href="fonts/poppins">
+    <link rel="stylesheet" href="fonts/fontawesome/css/all.min.css">
+
+    <!-- css link -->
+    <link rel="stylesheet" href="vendor/lightbox/dist/css/lightbox.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+  </head>
+  <body>
+
+<!-- mixitup start -->
+<section>
+  <div class="container">
+    <h2>mixitup example-1</h2>
+    <div class="row mt-3">
+      <div class="col-lg-12">
+        <div class="resent_w text-center">
+          <a data-filter="all"  class="btn btn-dark">all</a>
+          <a data-filter=".app" class="btn btn-dark">app Design</a>
+          <a data-filter=".web" class="btn btn-dark">web Design</a>
+          <a data-filter=".ui" class="btn btn-dark">ui Design</a>
+          <a data-filter=".photo" class="btn btn-dark">photoshop</a>
+          <a class="btn btn-danger" data-sort="order:asc">ASC</a>
+          <a class="btn btn-danger" data-sort="order:descending">DSC</a>
+        </div>
+      </div>
+    </div>
+    <div class="row mt-3" id="resent">
+      <div class="col-lg-4 mix web ui mb-4" data-order="1">
+        <div class="resent _img">
+          <img src="images/image_1.jpg" class="w-100" alt="">
+        </div>
+      </div>
+      <div class="col-lg-4 mix app photo mb-4" data-order="2">
+        <div class="resent _img">
+          <img src="images/image_2.jpg" class="w-100" alt="">
+        </div>
+      </div>
+      <div class="col-lg-4 mix web photo mb-4" data-order="3">
+        <div class="resent _img">
+          <img src="images/image_3.jpg" class="w-100" alt="">
+        </div>
+      </div>
+      <div class="col-lg-4 mix app mb-4" data-order="4">
+        <div class="resent _img">
+          <img src="images/image_4.jpg" class="w-100" alt="">
+        </div>
+      </div>
+      <div class="col-lg-4 mix app web ui mb-4" data-order="5">
+        <div class="resent _img">
+          <img src="images/image_5.jpg" class="w-100" alt="">
+        </div>
+      </div>
+      <div class="col-lg-4 mix app mb-4" data-order="6">
+        <div class="resent _img">
+          <img src="images/image_6.jpg" class="w-100" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- mixitup end -->
+<hr>
+<!-- lightbox start -->
+<section>
+  <div class="container">
+  <h2>mixitup example-2</h2>
+    <div class="row">
+      <div class="col-lg-3">
+        <div class="l_img">
+          <a href="images/image_01.jpg" class="w-100" data-lightbox="s_img" data-title="My caption">
+          <img src="images/image_01.jpg" class="img-fluid" alt="">
+          </a>
+        </div>
+      </div>
+      <div class="col-lg-3">
+        <div class="l_img">
+          <a href="images/image_02.jpg" class="w-100" data-lightbox="s_img" data-title="My caption">
+          <img src="images/image_02.jpg" class="img-fluid" alt="">
+          </a>
+        </div>
+      </div>
+      <div class="col-lg-3">
+        <div class="l_img">
+          <a href="images/image_03.jpg" class="w-100" data-lightbox="s_img" data-title="My caption">
+          <img src="images/image_03.jpg" class="img-fluid" alt="">
+          </a>
+        </div>
+      </div>
+      <div class="col-lg-3">
+        <div class="l_img">
+          <a href="images/image_04.jpg" class="w-100" data-lightbox="s_img" data-title="My caption">
+          <img src="images/image_04.jpg" class="img-fluid" alt="">
+          </a>
+        </div>
+      </div>
+      <div class="col-lg-3">
+        <div class="l_img">
+          <a href="images/image_05.jpg" class="w-100" data-lightbox="s_img" data-title="My caption">
+          <img src="images/image_05.jpg" class="img-fluid" alt="">
+          </a>
+        </div>
+      </div>
+      <div class="col-lg-3">
+        <div class="l_img">
+          <a href="images/image_06.jpg" class="w-100" data-lightbox="s_img" data-title="My caption">
+          <img src="images/image_06.jpg" class="img-fluid" alt="">
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<hr>
+<!-- lightbox end -->
+
+
+
+<!-- curvedtext 1 start-->
+ <div class="container">
+  <h2>curvedtext example-3</h2>
+  <div id="text1">Hm, looks like the wonderful arctext plugin.</div>
+ </div>
+ <hr>
+<!-- curvedtext 1 end-->
+
+<!-- curvedtext 2 start-->
+<div class="container ">
+  <h2>curvedtext example-4</h2>
+  <div id="text2"> And this looks like the amazing circletype plugin! </div>
+</div>
+<hr>
+<!-- curvedtext 2 end-->
+
+<!-- curvedtext 3 start-->
+<div class="container">
+  <h2>curvedtext example-5</h2>
+  <div id="text3"> But, what the heck is that? Well, that's a bezier curve! </div>
+</div>
+<hr>
+<!-- curvedtext 3 end-->
+
+<!-- count particles start-->
+<h2>particles example-6</h2>
+<div class="count-particles">
+<span class="js-count-particles"></span>
+</div>
+<!-- count particles end-->
+
+<!-- particles.js container -->
+<div id="particles-js"></div>
+<hr>
+<!-- particles end-->
+
+<!-- bootstrap snippet carousel start  -->
+<div class="container">
+  <h2>bootsnipp carousel example-7</h2>
+    <div class="row pt-1 pb-1">
+        <div class="col-lg-12 text-center">
+            <h4 class="text-center">Carousel with Three input search</h4>
+            <h6 class="text-center">awesome responsive image slider with a search bar</h6>
+        </div>
+    </div>
+</div>
+<section>
+  <div id="carouselExampleFade" class="carousel slide carousel-fade">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="images/car1.jpeg" class="d-block w-100" alt="#">
+    </div>
+    <div class="carousel-item">
+      <img src="images/car2.jpeg" class="d-block w-100" alt="#">
+    </div>
+    <div class="carousel-item">
+      <img src="images/car3.jpeg" class="d-block w-100" alt="#">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+</section>
+<section class="search-sec">
+  <div class="container">
+    <form action="#" method="post" novalidate="novalidate">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="row">
+            <div class="col-lg-3 col-md-3 col-sm-12 p-0">
+              <input type="text" class="form-control search-slt" placeholder="Enter Pickup City">
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-12 p-0">
+            <input type="text" class="form-control search-slt" placeholder="Enter Drop City">
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-12 p-0">
+              <select class="form-control search-slt" id="exampleFormControlSelect1">
+                <option>Select Vehicle</option>
+                <option>Car</option>
+                <option>Bus</option>
+                <option>Train</option>
+                <option>Metro Train</option>
+                <option>Aeroplane</option>
+                <option>Ship</option>
+              </select>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-12 p-0">
+              <button type="button" class="btn btn-danger wrn-btn">Search</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </form>
+  </div>
+</section>
+<hr>
+<!-- bootstrap snippet carousel end  -->
+
+<!-- awesome search box start -->
+<section>
+  <div class="container h-100 bg-danger">
+    <h2>Awesome Search Box example-8</h2>
+      <div class="d-flex justify-content-center h-100">
+        <div class="searchbar">
+          <input class="search_input" type="text" name="" placeholder="Search...">
+          <a href="#" class="search_icon"><i class="fas fa-search"></i></a>
+        </div>
+      </div>
+    </div>
+</section>
+<hr>
+<!-- awesome search box end -->
+
+<!-- text-shadow effects start -->
+<div class="container">
+  <h2>Text-shadow effects example-9</h2>
+  <div class="box">
+        <h1 class="text_s">Text-shadow effects - border around text!</h1>
+  </div>
+</div>
+<hr>
+<!-- text-shadow effects end -->
+<section>
+  <div class="container">
+    <h2>Animation Buttons example -10</h2>
+    <p>Hover us and enjoy the satisfying neumorphic animation designs!</p>
+    <div class="frame">
+      <button class="custom-btn btn-1">Read More</button>
+      <button class="custom-btn btn-2">Read More</button>
+      <button class="custom-btn btn-3"><span>Read More</span></button>
+      <button class="custom-btn btn-4"><span>Read More</span></button>
+      <button class="custom-btn btn-5"><span>Read More</span></button>
+      <button class="custom-btn btn-6"><span>Read More</span></button>
+      <button class="custom-btn btn-7"><span>Read More</span></button>
+      <button class="custom-btn btn-8"><span>Read More</span></button>
+      <button class="custom-btn btn-9">Read More</button>
+      <button class="custom-btn btn-10">Read More</button>
+      <button class="custom-btn btn-11">Read More<div class="dot"></div></button>
+      <button class="custom-btn btn-12"><span>Click!</span><span>Read More</span></button>
+      <button class="custom-btn btn-13">Read More</button>
+      <button class="custom-btn btn-14">Read More</button>
+      <button class="custom-btn btn-15">Read More</button>
+      <button class="custom-btn btn-16">Read More</button>
+      <p>DEERBUCKS.DESIGNING</p>
+    </div>
+  </div>
+</section>
+
+
+
+
+   <!-- js link -->
+   <script src="js/jquery.min.js"></script>
+   <script src="vendor/particles/particles.min.js"></script>
+   <script src="vendor/particles/app.js"></script>
+   <script src="vendor/particles/stats.js"></script>
+   <script src="vendor/lightbox/dist/js/lightbox.min.js"></script>
+   <script src="vendor/mixitup/mixitup.min.js"></script>
+   <script src="vendor/curvedtext/javascript/jquery.typorize.min.js"></script>
+   <script src="vendor/curvedtext/javascript/jquery.curvedtext.min.js"></script>
+   <script src="js/bootstrap.bundle.min.js"></script>
+   <script src="js/script.js"></script>
+
+  </body>
+</html>
+
